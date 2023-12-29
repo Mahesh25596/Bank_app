@@ -36,7 +36,7 @@ public class Main_class {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		Scanner myObj = new Scanner(System.in);
+		Scanner myObj  = new Scanner(System.in);
 		System.out.println("Enter Debt Value");
 		double debt = myObj.nextDouble();
 		System.out.println("Enter Interest Rate");
