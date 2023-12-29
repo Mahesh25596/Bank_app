@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('hello') {
             steps {
-                sh 'echo Hello Jenkins!'
+                git 'https://github.com/Mahesh25596/Bank_app.git'
+                sh './mvnw clean compile'
             }
         }
     }
