@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=number_rate, methodDesc=(D)D], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Main_class.java, block=[2], lineNumber=24, description=replaced double return with 0.0d for src/Main_class::number_rate, testsInOrder=[]]

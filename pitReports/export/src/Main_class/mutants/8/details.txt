@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=number_rate, methodDesc=(D)D], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Main_class.java, block=[0], lineNumber=20, description=negated conditional, testsInOrder=[]]

@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=monthly_rate, methodDesc=(DD)D], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Main_class.java, block=[1], lineNumber=12, description=changed conditional boundary, testsInOrder=[]]
