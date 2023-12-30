@@ -40,23 +40,23 @@
     
     
     <path id="JUnit 5.libraryclasspath">
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-jupiter-api_5.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-jupiter-engine_5.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-jupiter-migrationsupport_5.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-jupiter-params_5.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-commons_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-engine_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-launcher_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-runner_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-suite-api_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-suite-engine_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-platform-suite-commons_1.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/junit-vintage-engine_5.10.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/org.opentest4j_1.3.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/org.apiguardian.api_1.1.2.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/org.junit_4.13.2.v20230809-1000.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/org.hamcrest_2.2.0.jar"/>
-        <pathelement location="../../../../snap/eclipse/73/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar"/>
+        <pathelement location="lib/junit-jupiter-api_5.10.0.jar"/>
+        <pathelement location="lib/junit-jupiter-engine_5.10.0.jar"/>
+        <pathelement location="lib/junit-jupiter-migrationsupport_5.10.0.jar"/>
+        <pathelement location="lib/junit-jupiter-params_5.10.0.jar"/>
+        <pathelement location="lib/junit-platform-commons_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-engine_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-launcher_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-runner_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-suite-api_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-suite-engine_1.10.0.jar"/>
+        <pathelement location="lib/junit-platform-suite-commons_1.10.0.jar"/>
+        <pathelement location="lib/junit-vintage-engine_5.10.0.jar"/>
+        <pathelement location="lib/org.opentest4j_1.3.0.jar"/>
+        <pathelement location="lib/org.apiguardian.api_1.1.2.jar"/>
+        <pathelement location="lib/org.junit_4.13.2.v20230809-1000.jar"/>
+        <pathelement location="lib/org.hamcrest_2.2.0.jar"/>
+        <pathelement location="lib/org.hamcrest.core_2.2.0.v20230809-1000.jar"/>
     </path>
     <path id="bank_app.classpath">
         <pathelement location="."/>
@@ -90,6 +90,7 @@
         <javac debug="true" debuglevel="${debuglevel}" destdir="." includeantruntime="false" source="${source}" target="${target}">
             <src path="."/>
             <classpath refid="bank_app.classpath"/>
+            <classpath refid="JUnit 5.libraryclasspath"/>
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
