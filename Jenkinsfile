@@ -1,10 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage('hello') {
+        stage('clean') {
             steps {
                 
                 sh 'ant clean'
+            }
+        }
+        stage('build') {
+            steps {
+                
+                sh 'ant build'
             }
         }
     }
