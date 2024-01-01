@@ -2,12 +2,12 @@ package src;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class Main_classTest {
+public class Main_classTest {
 
 	@Test
-	void testMonthly_rate() {
+	public void testMonthly_rate() {
 		Main_class mc = new Main_class();
 		assertEquals(0,mc.monthly_rate(0.0, 0.0));
 		assertEquals(0,mc.monthly_rate(-2, -100));
@@ -15,7 +15,7 @@ class Main_classTest {
 	}
 
 	@Test
-	void testNumber_rate() {
+	public void testNumber_rate() {
 		Main_class mc = new Main_class();
 		assertEquals(0, mc.number_rate(0));		
 		assertEquals(0, mc.number_rate(-1));
@@ -23,7 +23,7 @@ class Main_classTest {
 	}
 
 	@Test
-	void testAmount_() {
+	public void testAmount_() {
 		Main_class mc = new Main_class();
 		assertEquals(0, mc.amount_(-1, -1, -1));
 		assertEquals(0, mc.amount_(0, 0, 0));

@@ -109,11 +109,12 @@
     </target>
     <target name="Main_classTest">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+        <junit fork="yes" printsummary="true">
             <formatter type="xml"/>
             <test name="src.Main_classTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="run.Main_classTest.classpath"/>
+            <classpath refid="JUnit 5.libraryclasspath"/>
         </junit>
     </target>
     <target name="Main_class (1)">

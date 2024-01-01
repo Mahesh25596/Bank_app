@@ -1,11 +1,11 @@
 // class version 61.0 (61)
-// access flags 0x20
-class src/Main_classTest {
+// access flags 0x21
+public class src/Main_classTest {
 
   // compiled from: Main_classTest.java
 
-  // access flags 0x0
-  <init>()V
+  // access flags 0x1
+  public <init>()V
    L0
     LINENUMBER 7 L0
     ALOAD 0
@@ -16,9 +16,9 @@ class src/Main_classTest {
     MAXSTACK = 1
     MAXLOCALS = 1
 
-  // access flags 0x0
-  testMonthly_rate()V
-  @Lorg/junit/jupiter/api/Test;()
+  // access flags 0x1
+  public testMonthly_rate()V
+  @Lorg/junit/Test;()
    L0
     LINENUMBER 11 L0
     NEW src/Main_class
@@ -62,9 +62,9 @@ class src/Main_classTest {
     MAXSTACK = 6
     MAXLOCALS = 2
 
-  // access flags 0x0
-  testNumber_rate()V
-  @Lorg/junit/jupiter/api/Test;()
+  // access flags 0x1
+  public testNumber_rate()V
+  @Lorg/junit/Test;()
    L0
     LINENUMBER 19 L0
     NEW src/Main_class
@@ -104,9 +104,9 @@ class src/Main_classTest {
     MAXSTACK = 4
     MAXLOCALS = 2
 
-  // access flags 0x0
-  testAmount_()V
-  @Lorg/junit/jupiter/api/Test;()
+  // access flags 0x1
+  public testAmount_()V
+  @Lorg/junit/Test;()
    L0
     LINENUMBER 27 L0
     NEW src/Main_class

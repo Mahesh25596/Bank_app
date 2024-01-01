@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="mahesh-VivoBook-ASUSLaptop-K3502ZA-K3502ZA" name="src.Main_classTest" skipped="0" tests="1" time="0.022" timestamp="2023-12-31T22:49:50">
+<testsuite errors="0" failures="0" hostname="mahesh-VivoBook-ASUSLaptop-K3502ZA-K3502ZA" name="src.Main_classTest" skipped="0" tests="3" time="0.024" timestamp="2024-01-01T18:11:10">
   <properties>
     <property name="ant.library.dir" value="/usr/share/ant/lib" />
     <property name="env.TERM" value="xterm-256color" />
@@ -12,7 +12,7 @@
     <property name="java.vendor.url" value="https://java.oracle.com/" />
     <property name="env.GNOME_SETUP_DISPLAY" value=":1" />
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-oracle/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner src.Main_classTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mahesh/eclipse-workspace/Bank_app/junit/TEST-src.Main_classTest.xml crashfile=/home/mahesh/eclipse-workspace/Bank_app/junitvmwatcher4971928246976941905.properties propsfile=/home/mahesh/eclipse-workspace/Bank_app/junit10848452688820928839.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner src.Main_classTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mahesh/eclipse-workspace/Bank_app/junit/TEST-src.Main_classTest.xml crashfile=/home/mahesh/eclipse-workspace/Bank_app/junitvmwatcher5488344930738485827.properties propsfile=/home/mahesh/eclipse-workspace/Bank_app/junit3465864203518504134.properties" />
     <property name="jdk.debug" value="release" />
     <property name="env.DERBY_HOME" value="/usr/lib/jvm/java-17-oracle/db" />
     <property name="sun.stderr.encoding" value="UTF-8" />
@@ -54,7 +54,7 @@
     <property name="env.SSH_AGENT_LAUNCHER" value="gnome-keyring" />
     <property name="ant.home" value="/usr/share/ant" />
     <property name="junit.output.dir" value="junit" />
-    <property name="env.GNOME_TERMINAL_SCREEN" value="/org/gnome/Terminal/screen/fcdb6606_db7a_49c6_9f68_254607d9fdc4" />
+    <property name="env.GNOME_TERMINAL_SCREEN" value="/org/gnome/Terminal/screen/969000ca_0e0c_4962_8f2d_57b29243996c" />
     <property name="native.encoding" value="UTF-8" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on January 17 1970" />
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib" />
@@ -64,7 +64,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="env.J2REDIR" value="/usr/lib/jvm/java-17-oracle" />
     <property name="env.XDG_SESSION_CLASS" value="user" />
-    <property name="env.XAUTHORITY" value="/run/user/1000/.mutter-Xwaylandauth.9NW8G2" />
+    <property name="env.XAUTHORITY" value="/run/user/1000/.mutter-Xwaylandauth.6PTRG2" />
     <property name="env.LC_MEASUREMENT" value="fr_FR.UTF-8" />
     <property name="ant.file.type" value="file" />
     <property name="env.PWD" value="/home/mahesh/eclipse-workspace/Bank_app" />
@@ -88,7 +88,7 @@
     <property name="env.QT_ACCESSIBILITY" value="1" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="/home/mahesh" />
-    <property name="env.DBUS_STARTER_ADDRESS" value="unix:path=/run/user/1000/bus,guid=f6e984b4964f1a94376f70036591efb7" />
+    <property name="env.DBUS_STARTER_ADDRESS" value="unix:path=/run/user/1000/bus,guid=e69cfce711193a334164c0ed6592c917" />
     <property name="user.language" value="en" />
     <property name="env.WAYLAND_DISPLAY" value="wayland-0" />
     <property name="ant.file.type.bank_app" value="file" />
@@ -96,10 +96,10 @@
     <property name="ant.java.version" value="17" />
     <property name="env.LC_PAPER" value="fr_FR.UTF-8" />
     <property name="env.XDG_MENU_PREFIX" value="gnome-" />
-    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus,guid=f6e984b4964f1a94376f70036591efb7" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus,guid=e69cfce711193a334164c0ed6592c917" />
     <property name="ant.file" value="/home/mahesh/eclipse-workspace/Bank_app/build.xml" />
     <property name="path.separator" value=":" />
-    <property name="env.GNOME_TERMINAL_SERVICE" value=":1.105" />
+    <property name="env.GNOME_TERMINAL_SERVICE" value=":1.167" />
     <property name="os.version" value="6.2.0-39-generic" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.invoked-targets" value="pit" />
@@ -126,18 +126,9 @@
     <property name="env.GNOME_SHELL_SESSION_MODE" value="ubuntu" />
     <property name="ant.project.default-target" value="build" />
   </properties>
-  <testcase classname="src.Main_classTest" name="initializationError" time="0.002">
-    <error message="Invalid test class &apos;src.Main_classTest&apos;:&#xa;  1. The class src.Main_classTest is not public.&#xa;  2. Test class should have exactly one public constructor&#xa;  3. No runnable methods" type="org.junit.runners.model.InvalidTestClassError">org.junit.runners.model.InvalidTestClassError: Invalid test class &apos;src.Main_classTest&apos;:
-  1. The class src.Main_classTest is not public.
-  2. Test class should have exactly one public constructor
-  3. No runnable methods
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-</error>
-  </testcase>
+  <testcase classname="src.Main_classTest" name="testMonthly_rate" time="0.003" />
+  <testcase classname="src.Main_classTest" name="testAmount_" time="0.0" />
+  <testcase classname="src.Main_classTest" name="testNumber_rate" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
