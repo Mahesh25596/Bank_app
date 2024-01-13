@@ -2,8 +2,6 @@ package src;
 
 import java.util.Scanner;
 
-// https://www.moneygeek.com/personal-loans/calculate-loan-payments/
-//https://www.bankrate.com/loans/personal-loans/how-to-calculate-loan-interest/#amortizing
 public class Main_class {
 	static double monthly_rate(double debt, double IR)
 	{
@@ -15,14 +13,15 @@ public class Main_class {
 		}
 		return monthly_rate;
 	}
-	static double number_rate(double IR)
-	{
-		if(IR<0)
-		{
-			return 0.0;
-		}
-		return  IR/12;
-	}
+//	static double number_rate(double IR)
+//	{
+//		if(IR<0)
+//		{
+//			return 0.0;
+//		}
+//		return  IR/12;
+//	}
+	//Amount calculation based on simple interest
 	static double amount_(double debt, double IR, int months)
 	{
 		double amount = debt + (debt*(IR/12)*months)/100;
@@ -47,7 +46,7 @@ public class Main_class {
 		double m_rate = 0.0;
 		m_rate = monthly_rate(debt, interest);
 		System.out.println("Monthly amount is "+m_rate);
-		System.out.println("Number of rates is "+number_rate(interest));
+		System.out.println("Number of rates is "+duration);
 		System.out.println("Over all amount is "+amount_(debt, interest, duration));
 		
 		
@@ -55,3 +54,4 @@ public class Main_class {
 	}
 
 }
+

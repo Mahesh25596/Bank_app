@@ -1,1 +1,2 @@
-MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_classTest, method=testNumber_rate, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Main_classTest.java, block=[6], lineNumber=22, description=removed call to org/junit/jupiter/api/Assertions::assertEquals, testsInOrder=[]]
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_classTest, method=testAmount_, methodDesc=()V], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Main_classTest.java, block=[6], lineNumber=30, description=removed call to org/junit/jupiter/api/Assertions::assertEquals, testsInOrder=[]]
+[]]

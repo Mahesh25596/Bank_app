@@ -14,13 +14,13 @@ public class Main_classTest {
 		assertEquals(50,mc.monthly_rate(5000, 12));		
 	}
 
-	@Test
+/*	@Test
 	public void testNumber_rate() {
 		Main_class mc = new Main_class();
 		assertEquals(0, mc.number_rate(0));		
 		assertEquals(0, mc.number_rate(-1));
 		assertEquals(1, mc.number_rate(12));
-	}
+	}*/
 
 	@Test
 	public void testAmount_() {

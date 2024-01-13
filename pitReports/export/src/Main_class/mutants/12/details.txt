@@ -1,1 +1,2 @@
-MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=amount_, methodDesc=(DDI)D], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Main_class.java, block=[0], lineNumber=28, description=Replaced double division with multiplication, testsInOrder=[]]
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=amount_, methodDesc=(DDI)D], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Main_class.java, block=[0], lineNumber=27, description=Replaced double addition with subtraction, testsInOrder=[]]
+]
