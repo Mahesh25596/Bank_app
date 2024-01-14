@@ -6,6 +6,10 @@ import org.junit.Test;
 
 public class Main_classTest {
 
+
+
+//test cases to check the working of function calculating monthly rate
+
 	@Test
 	public void testMonthly_rate() {
 		Main_class mc = new Main_class();
@@ -21,6 +25,10 @@ public class Main_classTest {
 		assertEquals(0, mc.number_rate(-1));
 		assertEquals(1, mc.number_rate(12));
 	}*/
+
+
+
+//test cases to check the working of function calculating amount based on simple interest
 
 	@Test
 	public void testAmount_() {

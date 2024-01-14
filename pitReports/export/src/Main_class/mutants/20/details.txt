@@ -1,1 +1,2 @@
-MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=main, methodDesc=([Ljava/lang/String;)V], indexes=[61], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Main_class.java, block=[9], lineNumber=48, description=removed call to java/io/PrintStream::println, testsInOrder=[]]
+MutationDetails [id=MutationIdentifier [location=Location [clazz=src.Main_class, method=main, methodDesc=([Ljava/lang/String;)V], indexes=[53], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Main_class.java, block=[8], lineNumber=63, description=removed call to java/util/Scanner::close, testsInOrder=[]]
+[]]

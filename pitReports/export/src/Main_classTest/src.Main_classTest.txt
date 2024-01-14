@@ -20,13 +20,13 @@ public class src/Main_classTest {
   public testMonthly_rate()V
   @Lorg/junit/Test;()
    L0
-    LINENUMBER 11 L0
+    LINENUMBER 15 L0
     NEW src/Main_class
     DUP
     INVOKESPECIAL src/Main_class.<init> ()V
     ASTORE 1
    L1
-    LINENUMBER 12 L1
+    LINENUMBER 16 L1
     DCONST_0
     ALOAD 1
     POP
@@ -35,7 +35,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.monthly_rate (DD)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L2
-    LINENUMBER 13 L2
+    LINENUMBER 17 L2
     DCONST_0
     ALOAD 1
     POP
@@ -44,7 +44,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.monthly_rate (DD)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L3
-    LINENUMBER 14 L3
+    LINENUMBER 18 L3
     LDC 50.0
     ALOAD 1
     POP
@@ -53,7 +53,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.monthly_rate (DD)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L4
-    LINENUMBER 15 L4
+    LINENUMBER 19 L4
     RETURN
    L5
     LOCALVARIABLE this Lsrc/Main_classTest; L0 L5 0
@@ -65,13 +65,13 @@ public class src/Main_classTest {
   public testAmount_()V
   @Lorg/junit/Test;()
    L0
-    LINENUMBER 27 L0
+    LINENUMBER 35 L0
     NEW src/Main_class
     DUP
     INVOKESPECIAL src/Main_class.<init> ()V
     ASTORE 1
    L1
-    LINENUMBER 28 L1
+    LINENUMBER 36 L1
     DCONST_0
     ALOAD 1
     POP
@@ -81,7 +81,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.amount_ (DDI)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L2
-    LINENUMBER 29 L2
+    LINENUMBER 37 L2
     DCONST_0
     ALOAD 1
     POP
@@ -91,7 +91,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.amount_ (DDI)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L3
-    LINENUMBER 30 L3
+    LINENUMBER 38 L3
     LDC 5300.0
     ALOAD 1
     POP
@@ -101,7 +101,7 @@ public class src/Main_classTest {
     INVOKESTATIC src/Main_class.amount_ (DDI)D
     INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
    L4
-    LINENUMBER 31 L4
+    LINENUMBER 39 L4
     RETURN
    L5
     LOCALVARIABLE this Lsrc/Main_classTest; L0 L5 0
